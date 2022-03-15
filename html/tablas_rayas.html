@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+	<style type="text/css">
+		h2{color: crimson}
+		header,nav,main,footer{margin: 0 auto;}
+		header{height: 100px;
+				width: 1024px;
+				background-color: burlywood;
+				padding: 20px;
+				box-sizing: border-box;
+				text-align: center;
+		}
+		table{
+			border-collapse: collapse;
+			width: 50%;
+		}
+		th,td{
+			text-align: left;
+			padding: 10px;
+		}
+		nav{
+			height: 50px;
+			width: 1024px;
+			background-color: aquamarine;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		main{
+			width: 1024px;
+			height: 1600px;
+			background-color:antiquewhite;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		section{
+			background-color:lightslategrey;
+			color: darkred;
+			width: 860px;
+			height: 500px;
+			padding: 20px;
+			margin: 20px auto;
+			box-sizing: border-box;
+		}
+		footer{
+			margin: 0 auto;
+			text-align: center;
+		}
+		th{
+			/*background-color: black;
+			color: white;*/
+		}
+		/*tr:nth-child(odd){
+			background-color: cadetblue;
+			color: aliceblue;
+			border-style: double;
+			border-color: aliceblue;
+		}
+		tr:nth-child(even){
+			background-color: darkblue;
+			color: blue;
+			border-style: dotted;
+			border-color: green;
+		}*/
+		/*Zebras en vertical*/
+		th:nth-child(even),td:nth-child(even){
+			background-color: bisque;
+		}
+	</style>	
+</head>
+
+<body>
+	<header>
+		<h1>Tabla con rayas o zebra</h1>
+	</header>
+	<nav></nav>
+	<main>
+		<section>
+		<h2>Lorem ipsum dolor.</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut unde iusto, neque aliquam sequi ullam minima, natus explicabo recusandae beatae cupiditate, temporibus voluptatem deserunt impedit nulla minus rem. Laborum, ullam.</p>
+			<table>
+				<thead>
+					<th>Dato 1</th>
+					<th>Dato 2</th>
+					<th>Dato 3</th>
+					<th>Dato 4</th>
+				</thead>
+				<tbody>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>71</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>5</td>
+						<td>6</td>
+						<td>71</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>8</td>
+						<td>9</td>
+						<td>71</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>11</td>
+						<td>12</td>
+						<td>71</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>14</td>
+						<td>15</td>
+						<td>71</td>
+					</tr>
+				</tbody>
+				<tfoot></tfoot>
+				
+			</table>
+		</section>
+	</main>
+	<footer></footer>
+</body>
+</html>

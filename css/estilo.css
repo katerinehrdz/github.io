@@ -1,0 +1,115 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	color: white;
+}
+header,nav,main,footer{
+    width: 100%;
+    margin: 0 auto;
+		}
+header{
+	beight: 600px;
+	background-color: #D67371;
+}
+nav {
+    height: 30px;
+    background-color: #6A638C;
+    margin-top: 0px;
+}
+main {
+    background-color: #F8CDE0;
+    padding: 30px;
+}
+	footer {
+	height: 100px;
+    background-color: #000000;
+	}
+body footer h6 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+section{
+	width: 85%;
+	height: auto;
+	margin: 30px auto;
+	padding: 40px;
+	background-color: #D67371;
+	border-radius: 10px;
+}
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    height: 100px;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+#imagenimg_1 {
+    width: 25%;
+    margin: 30 px;
+    height: auto;
+    border-left: 5px solid #F8CDE0;
+    border-right: 5px solid #F8CDE0;
+    border-bottom: 20px solid #F8CDE0;
+    border-top: 5px solid #F8CDE0;
+
+
+
+
+
+solid 
+    border-color: #D67371;
+}
+.imagen_1 {
+    height: 137px;
+    width: 247px;
+}
+#filter_gray  {
+    filter: grayscale(100%);
+}
+#filter_blur {
+    filter: blur(3px);
+}
+#filter_brightness {
+    filter: brightness(70%);
+}
+#filter_contrast {
+    filter: contrast(80%);
+}
+#filter_opacity {
+    filter: opacity(50%);
+
+}
+#filter_saturation {
+    filter: saturation(80%);
+}
+nav ul li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 21px;
+    padding-left: 20px;
+    color: #ECBFC0;
+    text-shadow: 0px 0px #6A638C;
+    background-color: #F8CDE0;
+    margin-right: 48px;
+    margin-left: 48px;
+    height: 20px;
+    padding-top: 0px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 0px 0px 3px;
+    box-shadow: 0px 0px 0px 3px;
+}
+
+#filter_sepia {
+    filter: sepia(100%);
+}

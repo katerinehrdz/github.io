@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+    height: 124px;
+    width: 1024px;
+    background-color: lightblue;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: -10px;
+}
+body header h1 {
+    text-align: center;
+    margin-top: -50px;
+    color: #F7EEEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul li a {
+    color: #F8CDE0;
+    text-align: center;
+    text-shadow: 0px 0px #BC5583;
+    -webkit-box-shadow: 0px 0px #D67371;
+    box-shadow: 0px 0px #D67371;
+}
+
+		table,th,td{
+			border-radius: 10px;
+			padding: 10px;
+		}
+		nav{
+    height: 50px;
+    width: 1024px;
+    background-color: #6A638C;
+    padding-bottom: 0px;
+    margin-top: -17px;
+		}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 41px;
+    background-color: #4590B4;
+    height: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #EF9B9C;
+    text-shadow: 0px 0px #DB8789;
+
+
+}
+
+
+		main{
+    width: 1024px;
+    height: 2847px;
+    background-color: #59CCD1;
+    padding-top: 20px;
+    text-shadow: 0px 0px;
+		}
+#c1 h2 {
+
+
+
+}
+
+		section{
+    background-color: #F8CDE0;
+    color: #6A638C;
+    width: 860px;
+    height: 676px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+		}
+
+		footer{
+    text-align: center;
+    width: 1024px;
+    height: 81px;
+    background-color: #670A0C;
+    padding-right: 0px;
+    padding-bottom: 0px;
+		}
+body footer {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+		th{
+			background-color: #DAA7EC;
+		}
+		td{
+			background-color:aliceblue;
+		}
+
+body footer h5 {
+
+}
+.salts_video {
+    width: 50%;
+    height: 70%;
+}
+.salts_video_tik {
+    width: 10%;
+    height: 76%;
+}
+
+input{type=text}, input{type=password}{
+	width: 30%;
+	padding: 5px;
+	margin: 8px 0;
+	border: 3px solid #B16160;
+	border-radius: 10px;
+	color: aqua;
+}
+imput{type=submit}{
+width: 10px;
+padding: 5px;
+border-radius: 10px;
+margin-left:20px;
+background-color: #6F3A39;
+color: #FFC2AD;
+	Cursor: pointer;}
+
+imput{type=text}:focus{
+	border: 1px solid#D67371;
+	background-color: #D7D7D7;
+}
+input{type=submit}:hover{
+	background-color: #F8CDE0;
+}
+textarea{
+width:50%;
+height: 100px;
+padding: 12px 20px;
+color: #D67371;
+border-radius:10px;
+border: 2px solid #8B4948;
+resize: none;
+}
+select{
+	width: 30px;
+	padding: 16px 20px;
+	border:none;
+	border-radius:4px;
+	background-color: #F1F1F1;
+}
